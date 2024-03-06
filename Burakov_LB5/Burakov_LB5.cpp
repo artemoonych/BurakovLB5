@@ -177,70 +177,70 @@ void finding(std::vector<Patient>& patients) {
     std::cout << "Результаты поиска:\n";
     switch (fn){
         case 1:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.lastName == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 2:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.firstName == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 3:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.middleName == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 4:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.birthYear == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 5:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.phoneNumber == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 6:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.address == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 7:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.medicalCardNumber == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 8:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.bloodGroup == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 9:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.rhFactor == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
             }
             break;
         case 10:
-            for (const auto& patient : patients) {
+            for (Patient patient : patients) {
                 if (patient.diagnosis == src) {
                     std::cout << patient.lastName << "\t" << patient.firstName << "\t" << patient.middleName << "\t" << patient.birthYear << "\t" << patient.phoneNumber << "\t" << patient.address << "\t" << patient.medicalCardNumber << "\t" << patient.bloodGroup << "\t" << patient.rhFactor << "\t" << patient.diagnosis << "\n";
                 }
